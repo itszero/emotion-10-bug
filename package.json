@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@babel/core": "7.2.2",
+    "@emotion/babel-preset-css-prop": "^10.0.7",
     "@emotion/core": "^10.0.7",
     "@emotion/styled": "^10.0.7",
     "@svgr/webpack": "4.1.0",
@@ -116,7 +117,8 @@
   },
   "babel": {
     "presets": [
-      "react-app"
+      "react-app",
+      "@emotion/babel-preset-css-prop"
     ]
   }
 }
